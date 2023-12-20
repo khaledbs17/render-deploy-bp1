@@ -4,7 +4,7 @@ services:
     region: frankfurt
     plan: free
     runtime: node
-    repo:https://github.com/khaledbs17/render-deploy-bp1
+    repo: https://github.com/khaledbs17/render-deploy-bp1
     branch: master
     buildCommand: npm install
     startCommand: npm start
